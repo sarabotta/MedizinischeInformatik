@@ -230,7 +230,7 @@ GameObject:
   - component: {fileID: 782765568}
   - component: {fileID: 782765572}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Corona
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
