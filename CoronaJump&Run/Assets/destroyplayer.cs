@@ -12,12 +12,13 @@ public class destroyplayer : MonoBehaviour
     }
 
     // Update is called once per frame
-    void OnCollisionEnter(Collision other)
+    void OnCollisionEnter2D (Collision2D other)
     {
-        if(other.gameObject.tag == "Player")
+        if(other.gameObject.tag == "Enemy")
         {
             GameObject e = Instantiate(explosion) as GameObject;
-            Destroy(gameObject);
+            e.transform.position = transform.position;
+            Destroy(other.gameObject);
             this.gameObject.SetActive(false);
         }
     }
