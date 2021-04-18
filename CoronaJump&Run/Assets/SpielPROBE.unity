@@ -1783,7 +1783,6 @@ GameObject:
   - component: {fileID: 782765568}
   - component: {fileID: 782765572}
   - component: {fileID: 782765573}
-  - component: {fileID: 782765574}
   m_Layer: 0
   m_Name: Corona
   m_TagString: Enemy
@@ -1799,7 +1798,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 782765567}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.9
@@ -1904,18 +1903,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 6
---- !u!114 &782765574
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 782765567}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d91f443f24143bc42b1535415d038f84, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &805784467
 GameObject:
   m_ObjectHideFlags: 0
@@ -2920,7 +2907,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: 87a2357765801c34292d6718d8b4d770, type: 3}
   m_PrefabInstance: {fileID: 205257074}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1217694262
+--- !u!114 &1217694255
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2929,10 +2916,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1217694254}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76f383a2046438e42ac635863f3f8b2b, type: 3}
+  m_Script: {fileID: 11500000, guid: d91f443f24143bc42b1535415d038f84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosion: {fileID: 100010, guid: 031d08f52af1daa4f929b85221519426, type: 3}
 --- !u!1 &1237944823
 GameObject:
   m_ObjectHideFlags: 0
