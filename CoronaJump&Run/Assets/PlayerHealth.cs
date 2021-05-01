@@ -5,16 +5,16 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public int health;
-    public Slider slider;
-    public Text text;
-    float dist = Vector3.Distance(objA.tansform.position, objB.transform.position);
-    float radius = objA.radius + objB.radius;
+    public int maxHealth = 3;
+    public int currentHealth;
+
+    public HealthBar healthbar;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        currentHealth = maxHealth;
+        healthbar.SetMaxHealth(maxHealth;
     }
 
     // Update is called once per frame
@@ -24,9 +24,9 @@ public class PlayerHealth : MonoBehaviour
         text.text = "verbleibende Leben: " + health;
     }
 
-    void OnCollisionEnter2D(Collision2D player)
+    void OnTriggerEnter2D(Collision2D col)
     {
-        if (dist < radius)
+        if (col.gameObject.name == "Corona")
             health = health - 1;
     }
 }
