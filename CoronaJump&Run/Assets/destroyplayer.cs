@@ -15,12 +15,6 @@ public class destroyplayer : MonoBehaviour
     void OnTriggerEnter2D (Collider2D other)
     {
         Debug.Log("Trigger!");
-        //if(other.gameObject.tag == "Player")
-        //{
-           // GameObject e = Instantiate(explosion) as GameObject;
-            //e.transform.position = transform.position;
-           // Destroy(other.gameObject);
-            //other.gameObject.SetActive(false);
-        //}
+       
     }
 }
