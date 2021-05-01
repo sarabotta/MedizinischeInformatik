@@ -1780,9 +1780,9 @@ GameObject:
   - component: {fileID: 782765571}
   - component: {fileID: 782765570}
   - component: {fileID: 782765569}
-  - component: {fileID: 782765568}
   - component: {fileID: 782765572}
   - component: {fileID: 782765573}
+  - component: {fileID: 782765568}
   m_Layer: 0
   m_Name: Corona
   m_TagString: Enemy
@@ -1790,19 +1790,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!135 &782765568
-SphereCollider:
+--- !u!58 &782765568
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 782765567}
+  m_Enabled: 1
+  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.9
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: 0.93442345
 --- !u!23 &782765569
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2916,7 +2919,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1217694254}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d91f443f24143bc42b1535415d038f84, type: 3}
+  m_Script: {fileID: 11500000, guid: 76f383a2046438e42ac635863f3f8b2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1237944823

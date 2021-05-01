@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class destroyplayer : MonoBehaviour
 {
-    public GameObject explosion;
+    //public GameObject explosion;
     // Start is called before the first frame update
     void Start()
     {
@@ -12,14 +12,15 @@ public class destroyplayer : MonoBehaviour
     }
 
     // Update is called once per frame
-    void OnCollisionEnter2D (Collision2D other)
+    void OnTriggerEnter2D (Collider2D other)
     {
-        if(other.gameObject.tag == "Enemy")
-        {
-            GameObject e = Instantiate(explosion) as GameObject;
-            e.transform.position = transform.position;
-            Destroy(other.gameObject);
-            this.gameObject.SetActive(false);
-        }
+        Debug.Log("Trigger!");
+        //if(other.gameObject.tag == "Player")
+        //{
+           // GameObject e = Instantiate(explosion) as GameObject;
+            //e.transform.position = transform.position;
+           // Destroy(other.gameObject);
+            //other.gameObject.SetActive(false);
+        //}
     }
 }
