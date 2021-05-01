@@ -5,28 +5,24 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public int maxHealth = 3;
-    public int currentHealth;
-
-    public HealthBar healthbar;
+    public int health;
+    public Slider slider;
 
     // Start is called before the first frame update
     void Start()
     {
-        currentHealth = maxHealth;
-        healthbar.SetMaxHealth(maxHealth;
+
     }
 
     // Update is called once per frame
     void Update()
     {
         slider.value = health;
-        text.text = "verbleibende Leben: " + health;
     }
 
-    void OnTriggerEnter2D(Collision2D col)
+    void OnCollisionEnter2D(Collision2D obj)
     {
-        if (col.gameObject.name == "Corona")
+        if (obj.gameObject.tag == "Enemy")
             health = health - 1;
     }
 }
