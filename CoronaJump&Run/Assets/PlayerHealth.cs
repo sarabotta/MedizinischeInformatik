@@ -20,9 +20,9 @@ public class PlayerHealth : MonoBehaviour
         slider.value = health;
     }
 
-    void OnCollisionEnter2D(Collision2D obj)
+    void OnTriggerEnter2D(Collider2D col)
     {
-        if (obj.gameObject.tag == "Enemy")
+        if (col.gameObject.tag == "Corona")
             health = health - 1;
     }
 }
