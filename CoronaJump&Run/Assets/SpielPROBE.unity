@@ -482,8 +482,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000019073, y: -131.4}
-  m_SizeDelta: {x: 218.6118, y: 61.5602}
+  m_AnchoredPosition: {x: 0.0000019073, y: -51.1}
+  m_SizeDelta: {x: 77.1811, y: 27.5975}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &105592948
 MonoBehaviour:
@@ -613,8 +613,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -0.0000038146973, y: 1.3537}
+  m_SizeDelta: {x: -0.0000076294, y: -2.7073}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &163867737
 MonoBehaviour:
@@ -638,7 +638,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: b51a3e520f9164da198dc59c8acfccd6, type: 3}
-    m_FontSize: 30
+    m_FontSize: 10
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -3184,8 +3184,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000019073, y: -30.78}
-  m_SizeDelta: {x: 218.6118, y: 61.5602}
+  m_AnchoredPosition: {x: -0.0000019073, y: -14.32}
+  m_SizeDelta: {x: 102.2979, y: 28.6408}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1173326917
 MonoBehaviour:
@@ -3231,13 +3231,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1923991796}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1923991800}
+        m_TargetAssemblyTypeName: GameOverScript, Assembly-CSharp
+        m_MethodName: RestartButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3340,7 +3340,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: b51a3e520f9164da198dc59c8acfccd6, type: 3}
-    m_FontSize: 30
+    m_FontSize: 15
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -4006,8 +4006,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 25.9245, y: 86.2543}
-  m_SizeDelta: {x: 324.4139, y: 61.1409}
+  m_AnchoredPosition: {x: 22.4, y: 31.2}
+  m_SizeDelta: {x: 231.7267, y: 40.5437}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1564932478
 MonoBehaviour:
@@ -4031,7 +4031,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 1f16052dfd5f6f54e94e97ecedd4c86b, type: 3}
-    m_FontSize: 70
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -4803,6 +4803,7 @@ GameObject:
   - component: {fileID: 1923991797}
   - component: {fileID: 1923991799}
   - component: {fileID: 1923991798}
+  - component: {fileID: 1923991800}
   m_Layer: 0
   m_Name: GameOverScreen
   m_TagString: Untagged
@@ -4829,8 +4830,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.00033569336, y: -0.000061035156}
+  m_SizeDelta: {x: -0.000061035, y: -0.00012207}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1923991798
 MonoBehaviour:
@@ -4870,6 +4871,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1923991796}
   m_CullTransparentMesh: 1
+--- !u!114 &1923991800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923991796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8976631315b32ec47b688f143c2f7211, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1975821687
 GameObject:
   m_ObjectHideFlags: 0
