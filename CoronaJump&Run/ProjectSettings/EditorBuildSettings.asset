@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/SpielPROBE.unity
     guid: 8a72f0541d0814748a0930441234c23b
+  - enabled: 1
+    path: "Assets/Scenes/Hauptmen\xFC.unity"
+    guid: c64be7956100318498bb1dfc3ead79ed
   m_configObjects: {}

@@ -17,6 +17,6 @@ public class GameOverScript : MonoBehaviour
     }
     public void ExitButton()
     {
-        //SceneManagerLoadScene("MainMenu"); noch kein Name für Menü
+        SceneManager.LoadScene("Hauptmenü");
     }
 }
