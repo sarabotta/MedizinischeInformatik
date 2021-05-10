@@ -5,24 +5,22 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public int health;
-    public Slider slider;
+    public int maxHealth = 3;
+    public int currentHealth;
+    
 
     // Start is called before the first frame update
     void Start()
     {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        slider.value = health;
+        currentHealth = maxHealth;
+        
     }
 
     void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.tag == "Corona")
-            health = health - 1;
+        {
+            this.GetComponent<HealthBar>().slider.maxValue -= 1;
+        }
     }
 }
