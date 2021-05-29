@@ -15,8 +15,14 @@ public class destroyplayer : MonoBehaviour
     // Update is called once per frame
     void OnTriggerEnter2D (Collider2D other)
     {
-        Debug.Log("Trigger!");
-        SceneManager.LoadScene("GameOver");
-       
+        if (other.CompareTag("Enemy"))
+        {
+            Debug.Log("Trigger!");
+            SceneManager.LoadScene("GameOver");
+        }
+       if (other.CompareTag("Finish"))
+        {
+            SceneManager.LoadScene("LevelFinish");
+        }
     }
 }
