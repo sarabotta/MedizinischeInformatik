@@ -13,6 +13,7 @@ public class GameOverScript : MonoBehaviour
     }
     public void RestartButton()
     {
+        
         SceneManager.LoadScene("SpielPROBE");
     }
     public void ExitButton()
