@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameOverScript : MonoBehaviour
+public class GameOver2Script : MonoBehaviour
 {
-    
     public void RestartButton()
     {
-       
-        SceneManager.LoadScene("SpielPROBE");
+
+        SceneManager.LoadScene("Level2");
     }
     public void ExitButton()
     {
