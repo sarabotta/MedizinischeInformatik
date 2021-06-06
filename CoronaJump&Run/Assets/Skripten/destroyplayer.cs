@@ -18,7 +18,7 @@ public class destroyplayer : MonoBehaviour
         if (other.CompareTag("Enemy"))
         {
             Debug.Log("Trigger!");
-            SceneManager.LoadScene("GameOver2");
+            SceneManager.LoadScene("GameOver");
         }
        if (other.CompareTag("Finish"))
         {
