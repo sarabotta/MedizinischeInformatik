@@ -14,7 +14,7 @@ public class destroyplayer3 : MonoBehaviour
         }
         if (other.CompareTag("Finish"))
         {
-            SceneManager.LoadScene("LevelFinish");
+            SceneManager.LoadScene("finalfinish");
         }
     }
 }
