@@ -22,7 +22,7 @@ public class destroyplayer : MonoBehaviour
         }
        if (other.CompareTag("Finish"))
         {
-            SceneManager.LoadScene("LevelFinish");
+            SceneManager.LoadScene("LevelFinish1");
         }
     }
 }

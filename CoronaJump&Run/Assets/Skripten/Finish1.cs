@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Finish : MonoBehaviour
+public class Finish1 : MonoBehaviour
 {
     public void selectlevel()
     {
@@ -11,10 +11,11 @@ public class Finish : MonoBehaviour
     }
     public void nextlevel()
     {
-        //SceneManager.LoadScene("");
+        SceneManager.LoadScene("Level2");
     }
     public void mainmenu()
     {
         SceneManager.LoadScene("Hauptmenü");
     }
+   
 }
