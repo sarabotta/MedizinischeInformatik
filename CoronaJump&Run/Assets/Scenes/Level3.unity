@@ -6739,7 +6739,7 @@ GameObject:
   - component: {fileID: 1721567542}
   - component: {fileID: 1721567541}
   m_Layer: 0
-  m_Name: Karikatur-Eisenmann-Corona-Impfstoff-und-Fastnacht-kleiner
+  m_Name: Finish flag
   m_TagString: Finish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6753,8 +6753,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1721567539}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 121.88, y: -0.98, z: 3.66998}
-  m_LocalScale: {x: 0.56057394, y: 0.45921096, z: 1}
+  m_LocalPosition: {x: 121.97, y: -1.03, z: 3.66998}
+  m_LocalScale: {x: 0.785252, y: 0.696623, z: 1}
   m_Children: []
   m_Father: {fileID: 894067813}
   m_RootOrder: 1
@@ -6776,8 +6776,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 12, y: 8.65}
-    newSize: {x: 12, y: 8.65}
+    oldSize: {x: 5.12, y: 5.12}
+    newSize: {x: 5.12, y: 5.12}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -6825,12 +6825,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b9435ff61f714584c9dc8e36cd0e7324, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6ab81f2c26cc0e04d841a37d155f09c5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 12, y: 8.65}
+  m_Size: {x: 5.12, y: 5.12}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
